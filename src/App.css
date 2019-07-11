@@ -1,0 +1,190 @@
+/* .App {
+  text-align: center;
+} */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.App-logo {
+	animation: App-logo-spin infinite 20s linear;
+	height: 40vmin;
+	pointer-events: none;
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.panel {
+	background-color: #f44236;
+	height: 9vh;
+	width: 100%;
+}
+.panel h1 {
+	color: white;
+	margin-left: 1%;
+}
+.dropdowna {
+	position: absolute;
+	right: 1%;
+	top: 1%;
+}
+.flex-column {
+	background-color: #222d31;
+	height: 92vh;
+	width: 15vw;
+}
+.buttongrouplist {
+	height: 91vh;
+}
+
+#panelresult {
+	background-color: green;
+	height: 91vh;
+	margin-left: 9%;
+}
+
+/* .showdata{
+  font-size: 150%;
+} */
+
+
+/*----------------------------------------------------------------------------*/
+
+/*grid products container*/
+.containerproductscolumn {
+	display: grid;
+	grid-template-columns: 5% 11% 3% 3% 7% 5%;
+	grid-gap: 11%;
+	background-color: palevioletred;
+	border: 1px solid;
+}
+
+
+
+/*products grid container*/
+.containershowproducts {
+	display: grid;
+	grid-template-columns: 9% 20.5% 10% 10% 10% 5%;
+	grid-gap: 5%;
+	background-color: #61dafb;
+}
+
+/*----------------------------------------------------------------------------*/
+
+/*categories grid container*/
+.containershowcategories {
+	display: grid;
+	grid-template-columns: 5% 5%;
+	grid-gap: 20%;
+	background-color: #61dafb;
+}
+
+.containercategoriescolumn {
+	display: grid;
+	grid-template-columns: 15% 19%;
+	grid-gap: 7%;
+	background-color: palevioletred;
+	border: 1px solid;
+}
+
+
+/*----------------------------------------------------------------------------*/
+
+/*orders grid container*/
+.containershoworders {
+	display: grid;
+	grid-template-columns: 2% 1% 1% 5% 5%;
+	grid-gap: 17%;
+	background-color: #61dafb;
+}
+
+.containerorderscolumn {
+	display: grid;
+	grid-template-columns: 12% 10% 10% 18.5% 10%;
+	grid-gap: 7%;
+	background-color: palevioletred;
+	border: 1px solid;
+}
+/*--------------------------------------------------------------------------------------*/
+
+
+
+/*----------------------------------------------------------------------------*/
+
+/*blogs grid container*/
+.containershowblogs {
+	display: grid;
+	grid-template-columns: 5% 5% 5% 5% 10% 5%;
+	grid-gap: 12%;
+	background-color: #61dafb;
+}
+
+.containerblogscolumn {
+	display: grid;
+	grid-template-columns: 10% 10% 10% 10% 10% 10%;
+	grid-gap: 7%;
+	background-color: palevioletred;
+	border: 1px solid;
+}
+/*--------------------------------------------------------------------------------------*/
+
+
+
+
+/*----------------------------------------------------------------------------*/
+
+/*testimonials grid container*/
+.containershowtestimonials {
+	display: grid;
+	grid-template-columns: 10% 10% 10% 10% 10% 10% 10%;
+	grid-gap: 7%;
+	background-color: #61dafb;
+}
+
+.containertestimonialscolumn {
+	display: grid;
+	grid-template-columns: 10% 10% 10% 10% 10% 10% 10%;
+	grid-gap: 7%;
+	background-color: palevioletred;
+	border: 1px solid;
+}
+/*--------------------------------------------------------------------------------------*/
+
+.productsbutton:hover{
+  background: chartreuse;
+
+}
+.blogsbutton:hover{
+  background-color: chartreuse;
+  }
+  .ordersbutton:hover{
+    background-color: chartreuse;
+    }
+    .categoriesbutton:hover{
+      background-color: chartreuse;
+      }
+      .Testimonialsbutton:hover{
+        background-color: chartreuse;
+        }
